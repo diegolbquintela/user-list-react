@@ -16,6 +16,7 @@ const UserForm = (props) => {
     e.preventDefault();
 
     const enteredData = {
+      id: Math.random().toString(),
       name: enteredName,
       age: enteredAge,
     };
